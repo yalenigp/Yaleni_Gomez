@@ -18,41 +18,54 @@
 <body style="background-color: rgb(7, 147, 147);">
     <!-- Sección Contacto -->
   <div class="container" my-4>
+  <div class="row">
     <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-4 bg-fondo">
-      <h2> INGRESE SUS COMENTARIOS</h2> <!-- Agregando titulo al formulario-->
-      <br>
+      <h1 style="font-size: 35px;">Tecno-Store</h1>
+          <p>Nuestro objetivo es ofrecer a nuestros clientes los últimos avances en tecnología, garantizando la mejor calidad y servicio. Contamos con un equipo de profesionales altamente cualificados que se esfuerzan por satisfacer las necesidades de nuestros clientes. En Tecno-Store, nos comprometemos a brindar soluciones tecnológicas innovadoras, para hacer la vida de nuestros clientes más fácil y cómoda.</p>     
+    </div>
+
+    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-4 bg-fondo">
+      <h2 class="Titulo"> INGRESE SUS COMENTARIOS Y/O SOLICITUDES</h2> <!-- Agregando titulo al formulario-->
+      <br> 
        <form> <!-- Agregando etiqueta formulario y dentro de esta pegamos el codigo que seleccionamos de boostrap-->
-            <div class="mb-3">
+            <div class="mb-6">
               <label for="Nombre" class="form-label">Nombre</label>
               <input type="text" class="form-control" id="Nombre" placeholder="Nombre" autofocus>
             </div>
-            <div class="mb-3">
+            <div class="mb-6">
               <label for="Apellido" class="form-label">Apellido</label>
               <input type="text" class="form-control" id="Apellido" placeholder="Apellido" autofocus>
             </div>
-            <div class="mb-3">
+            <div class="mb-6">
               <label for="Correo" class="form-label">Correo</label>
               <input type="email" class="form-control" id="Apellido" placeholder="Correo" autofocus>
             </div>
-            <div class="mb-3">
+            <div class="mb-6">
               <label for="descripcion" class="form-label">Descripcion</label>
-              <textarea class="form-control" id="descripcion" placeholder="Descripcion" rows="3"></textarea>
+              <textarea class="form-control" id="descripcion" placeholder="Descripcion" rows="6"></textarea>
             </div>
+            <br>
             <div class="d-grid gap-2"> <!-- Agregando estilo de block a los botones-->
               <button class="btn btn-success"> Guardar </button> <!--Dando estilo al boton Guardar-->
               <button class="btn btn-secondary"> Limpiar </button> <!--Dando estilo al boton Limpiar-->
             </div>
        </form>
       </div>
+      
+    </div>
   </div> <!--Creando el formulario -->
 
 
-</body>
-</html>
-
-
-
-
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <div class="container">
+        <p>Dirección: Av. Pdte. Manuel Bulnes 4, Punta Arenas, Magallanes y la Antártica Chilena</p>
+        <br>
+       
+        
+    </div>
+    <!-- <link href="Inicio.html" class="btn btn-secondary">Ir al pagina principal</link>-->
+    <a href="index.html" class="btn btn-secondary">Ir a Página</a> 
+</footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
